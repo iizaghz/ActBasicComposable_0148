@@ -136,6 +136,18 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 modifier = Modifier.height(20.dp)
             )
 
+            // Gambar besar
+            Image(
+                painter = gambarBesar,
+                contentDescription = "Gambar Utama",
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(280.dp)
+                    .clip(
+                        RoundedCornerShape(50.dp)
+                    ),
+                contentScale = ContentScale.Crop
+            )
         }
     }
 }
