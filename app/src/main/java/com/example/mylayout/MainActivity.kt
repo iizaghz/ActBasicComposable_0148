@@ -18,7 +18,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyLayoutTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
+                    // Panggil composable layout utama dengan padding dari Scaffold
+                    TataLetakBoxColumnRow(
+                        modifier = Modifier.padding(paddingValues = innerPadding)
+                    )
                 }
             }
         }
