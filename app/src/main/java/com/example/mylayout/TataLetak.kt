@@ -92,3 +92,19 @@ fun TataLetakColumnRow(modifier: Modifier) {
         }
     }
 }
+
+@Composable
+fun TataLetakRowColumn(modifier: Modifier) {
+    Row(
+        modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceEvenly
+    ) {
+        //Kolom1
+        Column() {
+        }
+
+        //Kolom2
+        Column() {
+        }
+    }
+}
