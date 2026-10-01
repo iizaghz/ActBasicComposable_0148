@@ -40,4 +40,16 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         id = R.drawable.login_large
     )
 
+    Box(
+        modifier = modifier.fillMaxSize()
+    ) {
+
+        // Background
+        Image(
+            painter = background,
+            contentDescription = "Background",
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+    }
 }
