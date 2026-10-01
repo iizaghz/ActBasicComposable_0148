@@ -51,5 +51,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
+
+        // Lapisan gelap
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(
+                    Color.Black.copy(alpha = 0.45f)
+                )
+        )
     }
 }
