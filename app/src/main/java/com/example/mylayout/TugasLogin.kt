@@ -107,6 +107,35 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 modifier = Modifier.height(20.dp)
             )
 
+            // Teks 3
+            Text(
+                text = "Nama: Sukma Hawa Iza Ghazali",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFFFF1493)
+
+            )
+
+            // Teks 4
+            Text(
+                text = "NIM: 20240140148",
+                fontSize = 17.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFF9C27FF)
+            )
+
+            // Teks 5
+            Text(
+                text = "Teknologi Informasi",
+                fontSize = 17.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFF00BFFF)
+            )
+
+            Spacer(
+                modifier = Modifier.height(20.dp)
+            )
+
         }
     }
 }
