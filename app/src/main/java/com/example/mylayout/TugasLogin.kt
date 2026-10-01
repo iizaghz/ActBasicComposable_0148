@@ -60,5 +60,35 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     Color.Black.copy(alpha = 0.45f)
                 )
         )
+
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(
+                    top = 30.dp,
+                    start = 25.dp,
+                    end = 25.dp,
+                    bottom = 25.dp
+                ),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Top
+        ) {
+
+            // Teks 1
+            Text(
+                text = "LOGIN",
+                fontSize = 32.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Cyan
+            )
+
+            // Teks 2
+            Text(
+                text = "Selamat Datang",
+                fontSize = 16.sp,
+                color = Color.White
+            )
+
+        }
     }
 }
