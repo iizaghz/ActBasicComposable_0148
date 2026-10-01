@@ -122,10 +122,23 @@ fun TataLetakBoxColumnRow(modifier: Modifier) {
     Column(
         modifier = modifier.fillMaxWidth()
     ) {
-
+        //Baris1
         Column(
             modifier = Modifier.fillMaxWidth()
         ) {
-
+            Text(text = "Col1_Row1_Komponen1")
+            Text(text = "Col1_Row1_Komponen2")
+            Text(text = "Col1_Row1_Komponen3")
         }
 
+        //Baris2
+        Column(
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text(text = "Col1_Row2_Komponen1")
+            Text(text = "Col1_Row2_Komponen2")
+            Text(text = "Col1_Row2_Komponen3")
+        }
+
+    }
+}
