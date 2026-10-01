@@ -89,6 +89,24 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color.White
             )
 
+            Spacer(
+                modifier = Modifier.height(20.dp)
+            )
+
+            // Gambar kecil
+            Image(
+                painter = gambarKecil,
+                contentDescription = "Foto Profil",
+                modifier = Modifier
+                    .size(100.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
+
+            Spacer(
+                modifier = Modifier.height(20.dp)
+            )
+
         }
     }
 }
