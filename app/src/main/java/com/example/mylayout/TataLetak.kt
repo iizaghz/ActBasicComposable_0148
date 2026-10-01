@@ -38,3 +38,12 @@ fun TataLetakColumn(modifier: Modifier) {
         Text(text = "Komponen4")
     }
 }
+
+@Composable
+fun TataLetakRow(modifier: Modifier) {
+    Row(
+        modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceEvenly
+    ) {
+    }
+}
