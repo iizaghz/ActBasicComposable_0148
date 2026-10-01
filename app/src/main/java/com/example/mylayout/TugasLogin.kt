@@ -25,3 +25,19 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+@Composable
+fun TugasLogin(modifier: Modifier = Modifier) {
+
+    val background = painterResource(
+        id = R.drawable.login_background
+    )
+
+    val gambarKecil = painterResource(
+        id = R.drawable.login_small
+    )
+
+    val gambarBesar = painterResource(
+        id = R.drawable.login_large
+    )
+
+}
